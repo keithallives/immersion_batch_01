@@ -1,3 +1,55 @@
+/* Imports */
+@import url("https://fonts.googleapis.com/css?family=Concert+One");
+/* font-family: 'Concert One', cursive; */
+
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed");
+/* font-family: 'Roboto Condensed', sans-serif; */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
 img {
   width: 100%;
+}
+
+/* Showcase */
+#main-title {
+  font-family: "Concert One", cursive;
+  color: #da5858;
+  text-transform: uppercase;
+  margin-top: 80px;
+}
+
+#arrow-down {
+  color: #ccc;
+}
+
+#arrow-down:hover {
+  color: #da5858;
+}
+
+#showcase {
+  background: url(../img/cover/main-cover.png) no-repeat center center
+    fixed/cover;
+  position: relative;
+  min-height: 100vh;
+}
+
+#showcase .overlay {
+  content: "";
+  position: absolute;
+  min-height: 100vh;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: rgba(25, 25, 25, 0.8);
+}
+
+#showcase p {
+  color: #ccc;
 }
